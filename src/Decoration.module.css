@@ -4,10 +4,14 @@
     justify-content: center;
     height: 50%;
     width: 100%;
+    padding-top: 5%;
 }
 .paragraph{
-    font-size: 24px;
-
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    white-space: pre-line;
+    color: rgb(76, 76, 76);
 }
 .decoration{
     background-image: url("./decoration.png");

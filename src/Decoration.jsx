@@ -6,6 +6,7 @@ export default class Decoration extends React.Component{
         return (
             <div className={styles.wrapper}>
                 <p className={styles.paragraph}>{this.props.text}</p>
+                <p className={styles.paragraph}>{this.props.text2}</p>
                 <div className={styles.decoration}></div>
             </div>
         )
