@@ -1,0 +1,10 @@
+.wrapper{
+    border: 5px solid red;
+    width: 100vw;
+    height: 750px;
+}
+.__stepsBox{
+    border: 5px solid greenyellow;
+    height: 30%;
+    width: 30%;
+}

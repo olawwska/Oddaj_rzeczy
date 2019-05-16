@@ -1,0 +1,12 @@
+.wrapper{
+    background-image: url("footer_bg_img.jpg");
+    background-size: cover;
+    border: 5px solid red;
+    width: 100vw;
+    height: 956px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
