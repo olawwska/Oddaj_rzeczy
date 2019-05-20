@@ -2,7 +2,7 @@
 .wrapper{
     background-color: rgb(244, 198, 18);
     border: 5px solid red;
-    width: 100vw;
+    width: 100%;
     height: 384px;
     padding: 0 60px;
     box-sizing: border-box;

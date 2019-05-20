@@ -1,17 +1,19 @@
 .wrapper{
     border: 5px solid red;
-    width: 100vw;
+    width: 100%;
     height: 954px;
     display: flex;
     flex-direction: row;
 }
-.__sidebar{
+
+.sidebar{
     border: 5px solid greenyellow;
     height: 100px;
     width: 100px;
     flex: 40%;
 }
-.__img{
+
+.img{
     border: 5px solid greenyellow;
     flex: 60%;
     background-image: url("about.jpg");
