@@ -1,0 +1,23 @@
+._wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    padding-top: 5%;
+}
+._paragraph{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    white-space: pre-line;
+    color: rgb(76, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}
+._decoration{
+    background-image: url("decoration.png");
+    background-size: cover;
+    width: 253px;
+    height: 33px;
+}
+

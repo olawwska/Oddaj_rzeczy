@@ -1,0 +1,19 @@
+.wrapper{
+    border: 5px solid red;
+    width: 100vw;
+    height: 954px;
+    display: flex;
+    flex-direction: row;
+}
+.__sidebar{
+    border: 5px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    flex: 40%;
+}
+.__img{
+    border: 5px solid greenyellow;
+    flex: 60%;
+    background-image: url("about.jpg");
+    background-size: cover;
+}
