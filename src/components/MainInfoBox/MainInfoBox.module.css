@@ -1,5 +1,4 @@
 .__infoBox{
-    border: 5px solid greenyellow;
     height: 100%;
     width: 30%;
     display: flex;
@@ -8,7 +7,7 @@
 }
 .number{
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 80px;
     text-align: center;
     padding: 40px 0;
     color: rgb(76, 76, 76);

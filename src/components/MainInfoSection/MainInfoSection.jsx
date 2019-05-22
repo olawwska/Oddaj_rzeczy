@@ -5,7 +5,7 @@ import MainInfoBox from '../MainInfoBox/MainInfoBox';
 export default class MainInfoSection extends React.Component{
     render(){
         return(
-            <div className={styles.wrapper}>
+            <div className={styles._wrapper}>
                 <MainInfoBox
                     number={'10'}
                     sentence={'Oddanych worków'}
