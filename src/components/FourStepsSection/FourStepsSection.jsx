@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './FourStepsSection.module.css';
 import Decoration from '../Decoration/Decoration';
-import Button from '../Button/Button';
+import { Button } from '../Button/Button';
 
 export default class FourStepsSection extends React.Component{
     render(){

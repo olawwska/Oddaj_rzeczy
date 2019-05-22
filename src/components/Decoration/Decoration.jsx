@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Decoration/Decoration.module.css';
+import styles from './Decoration.module.css';
 
 export default class Decoration extends React.Component{
     render(){

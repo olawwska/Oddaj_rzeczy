@@ -1,7 +1,8 @@
 import React from 'react';
-import Button from '../Button/Button.jsx';
+
+import { Button } from '../Button/Button.jsx';
 import Decoration from '../Decoration/Decoration.jsx';
-import styles from '../Header/Header.module.css';
+import styles from './Header.module.css';
 
 export default class Header extends React.Component{
     render(){
