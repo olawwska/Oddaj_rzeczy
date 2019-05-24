@@ -11,7 +11,8 @@ export class Button extends React.Component {
         // Mamy najlepsze z 2 światów - BEM i CSS modules! :)
         const buttonClasses = classNames({
             [styles.Button]: true,
-            [styles["Button--small"]]: this.props.isSmall
+            [styles["Button--small"]]: this.props.isSmall,
+            [styles["Button--moderate"]]: this.props.isModerate
         });
 
         return (

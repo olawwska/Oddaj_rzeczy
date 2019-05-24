@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './AboutUsSection.module.css';
-import Decoration from '../Decoration/Decoration';
+import { Decoration } from '../Decoration/Decoration';
 
 export default class AboutUsSection extends React.Component{
     render(){

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Decoration.module.css';
 
-export default class Decoration extends React.Component{
+export class Decoration extends React.Component{
     render(){
         return (
             <div className={styles._wrapper}>

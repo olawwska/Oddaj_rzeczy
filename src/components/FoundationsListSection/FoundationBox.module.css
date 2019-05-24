@@ -1,0 +1,23 @@
+._wrapper{
+    width: 500px;
+    height: 113px;
+}
+._header{
+    font-size: 20px;
+}
+._paragraph--italic{
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+.paragraph--normal{
+    font-style: normal;
+    text-align: right;
+    padding-bottom: 55px;
+}
+._after{
+    background-color: black;
+    height: 1px;
+    width: 500px;
+}
+
