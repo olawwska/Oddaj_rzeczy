@@ -16,7 +16,7 @@ export class Button extends React.Component {
         });
 
         return (
-            <button className={buttonClasses}>
+            <button className={buttonClasses} type={this.props.type}>
                 {this.props.text}</button>
         )
     }
