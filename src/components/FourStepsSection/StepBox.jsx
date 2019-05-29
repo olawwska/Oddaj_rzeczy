@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './StepBox.module.css';
-import 'font-awesome/css/font-awesome.min.css';
 
 export class StepBox extends React.Component{
     render(){

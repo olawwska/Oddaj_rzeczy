@@ -10,9 +10,9 @@ export class Button extends React.Component {
         // np. styles.Button zamieni się w "Button_LOSOWY-IDENTYFIKATOR", a drugi styl w "Button--small__LOSOWY-IDENTYFIKATOR"
         // Mamy najlepsze z 2 światów - BEM i CSS modules! :)
         const buttonClasses = classNames({
-            [styles.button]: true,
-            [styles["--small"]]: this.props.isSmall,
-            [styles["--moderate"]]: this.props.isModerate
+            [styles.main]: true,
+            [styles._small]: this.props.isSmall,
+            [styles._moderate]: this.props.isModerate
         });
 
         return (
