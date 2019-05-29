@@ -1,4 +1,4 @@
-.wrapper{
+._wrapper{
     width: 100%;
     height: 750px;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
     align-items: center;
     padding-top: 40px;
 }
-.__stepsBox{
+._stepsBox{
     height: 320px;
     width: 1182px;
     margin-top: 25px;

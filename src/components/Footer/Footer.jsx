@@ -11,7 +11,7 @@ import { Button } from '../Button/Button';
 export default class Footer extends React.Component{
     render(){
         return(
-            <div className={styles.wrapper}>
+            <div className={styles._wrapper}>
                 <Decoration text={'Skontaktuj się z nami'}/>
                 <form className={styles._form}>FORMULARZ KONTAKTOWY
                     <div className={styles._inputWrapper}>

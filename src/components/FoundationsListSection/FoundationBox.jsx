@@ -9,7 +9,7 @@ export class FoundationBox extends React.Component{
 
         const foundationBoxClasses = classNames({
             [styles["_paragraph--italic"]]: this.props.isItalic,
-            [styles["paragraph--normal"]]: this.props.isNormal
+            [styles["_paragraph--normal"]]: this.props.isNormal
         });
 
         return(

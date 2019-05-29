@@ -9,9 +9,9 @@ import 'font-awesome/css/font-awesome.min.css';
 export default class FourStepsSection extends React.Component{
     render(){
         return(
-            <div className={styles.wrapper}>
+            <div className={styles._wrapper}>
                 <Decoration text={'Wystarczą 4 proste kroki'}/>
-                <div className={styles.__stepsBox}>
+                <div className={styles._stepsBox}>
                     <StepBox
                         sentence={'Wybierz rzeczy'}
                         text={'ubrania, zabawki, sprzęt i inne'}/>

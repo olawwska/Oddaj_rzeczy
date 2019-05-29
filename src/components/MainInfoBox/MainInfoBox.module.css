@@ -1,25 +1,25 @@
-.__infoBox{
+._infoBox{
     height: 100%;
     width: 30%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
-.number{
+._number{
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
     text-align: center;
     padding: 40px 0;
     color: rgb(76, 76, 76);
 }
-.span{
+._span{
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(76, 76, 76);
 }
-.text{
+._text{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;

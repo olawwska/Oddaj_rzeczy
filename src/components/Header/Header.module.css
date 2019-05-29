@@ -4,18 +4,18 @@
  * VW przydatne jest w określaniu mniejszych wielkości, np. 60% widoku - 60vw. Tu lepiej użyć po prostu
  * "100%" co będzie znaczyło - 100% rodzica.
  */
-.Header__header{
+._header{
     width: 100%;
     height: 964px;
     position: relative;
 }
-.Header__background{
+._background{
     background-image: url("header_start_img.jpg");
     width: 63%;
     height: 100%;
     background-size: cover;
 }
-.Header__nav{
+._nav{
     width: 100%;
     height: 188px;
     padding: 0 250px 0 0;
@@ -25,7 +25,7 @@
     flex-direction: column;
     align-items: flex-end;
 }
-.Header__nav__topButtons{
+._nav__topButtons{
     width: 15%;
     height: 50%;
     display: flex;
@@ -33,21 +33,21 @@
     justify-content: space-around;
     margin-left: 70%;
 }
-.Header__nav__bottomButtons{
+._nav__bottomButtons{
     width: 48%;
     height: 50%;
     display: flex;
     justify-content: space-around;
     margin-left: 45%;
 }
-.Header__sectionMain{
+._sectionMain{
     width: 800px;
     height: 500px;
     position: absolute;
     top: 40%;
     right: 5%;
 }
-.Header__buttonWrapper{
+._buttonWrapper{
     height: 50%;
     width: 100%;
     display: flex;
