@@ -7,8 +7,16 @@ import {FoundationBox} from './FoundationBox';
 
 
 export default class FoundationsListSection extends React.Component{
-    render(){
+    constructor(props) {
+        super(props);
 
+        this.state = {
+            foundations: [{
+
+            }],
+        }
+    }
+    render(){
         return(
             <div className={styles._wrapper}>
                 <div className={styles["_wrapper--top"]}>
