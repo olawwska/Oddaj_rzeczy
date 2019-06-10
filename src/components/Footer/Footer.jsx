@@ -1,12 +1,13 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import 'font-awesome/css/font-awesome.min.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 
-import styles from './Footer.module.css';
 import { Decoration } from '../Decoration/Decoration';
 import { Button } from '../Button/Button';
 
-
+import styles from './Footer.module.css';
 
 export default class Footer extends React.Component{
     render(){
@@ -36,8 +37,8 @@ export default class Footer extends React.Component{
                 <footer className={styles._footer}>
                     <div className={styles["_footer--left"]}> Copyright 2015 by Anna Dadej</div>
                     <div className={styles["_footer--right"]}>
-                        <div className={styles._icon}><i className="fa fa-thumbs-up"></i></div>
-                        <div className={styles._icon}><i className="fa fa-thumbs-up"></i></div>
+                        <div className={styles['_icon-wrapper']}><FontAwesomeIcon className={styles._icon} icon={faInstagram}/></div>
+                        <FontAwesomeIcon className={styles._icon} icon={faFacebookF}/>
                     </div>
                 </footer>
             </div>

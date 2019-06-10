@@ -3,8 +3,6 @@ import styles from './FourStepsSection.module.css';
 import { Decoration } from '../Decoration/Decoration';
 import { Button } from '../Button/Button';
 import { StepBox } from '../FourStepsSection/StepBox';
-import 'font-awesome/css/font-awesome.min.css';
-
 
 export default class FourStepsSection extends React.Component{
     render(){

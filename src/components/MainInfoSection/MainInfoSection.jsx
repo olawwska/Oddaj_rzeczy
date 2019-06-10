@@ -2,7 +2,18 @@ import React from 'react';
 import styles from './MainInfoSection.module.css';
 import MainInfoBox from '../MainInfoBox/MainInfoBox';
 
-export default class MainInfoSection extends React.Component{
+export default class MainInfoSection extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            campaigns: [{
+               number: 10,
+               sentence: '',
+               campaignText: '',
+            }],
+        }
+    }
     render(){
         return(
             <div className={styles._wrapper}>
