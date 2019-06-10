@@ -12,7 +12,8 @@ export default class FoundationsListSection extends React.Component{
 
         this.state = {
             foundations: [{
-
+                header: '',
+                text: ''
             }],
         }
     }
