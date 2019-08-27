@@ -5,8 +5,14 @@ import styles from './FoundationBox.module.css';
 
 
 export class FoundationBox extends React.Component{
+    constructor(props){
+        super(props);
 
-    
+        this.state = {
+
+        }
+    }
+
     render(){
 
         const foundationBoxClasses = classNames({
