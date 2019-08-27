@@ -1,0 +1,21 @@
+._wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+._paragraph{
+    font-size: 41px;
+    width: 100%;
+    text-align: center;
+    white-space: pre-line;
+    color: rgb(76, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}
+._decoration{
+    background-image: url("decoration.png");
+    background-size: cover;
+    margin-top: 45px;
+    width: 253px;
+    height: 33px;
+}
+

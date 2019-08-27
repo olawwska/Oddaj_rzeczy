@@ -1,0 +1,18 @@
+._wrapper{
+    width: 285px;
+    height: 100%;
+    text-align: center;
+    padding: 45px 45px;
+}
+._sentence{
+    font-size: 20px;
+    margin: 40px 0;
+}
+._after{
+    background-color: black;
+    height: 1px;
+    margin-bottom: 20px;
+}
+._paragraph{
+    font-size: 18px;
+}

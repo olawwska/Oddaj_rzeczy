@@ -1,0 +1,11 @@
+
+._wrapper{
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAACBJREFUCB1j/HnY7T+TEAvDv3d/GOA0AxbAhEWMgXhBAFl/CQteP0aJAAAAAElFTkSuQmCC
+    ) repeat;
+    width: 100%;
+    height: 384px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
